@@ -30,7 +30,7 @@ bool palindrom(int num)
 
 int interval(int num)
 {
-    while (((num<-99999) || ((num>-10000) && (num<10000)) || (num>99999)))
+    while (((num<-9999) || ((num>-10000) && (num<10000)) || (num>9999)))
     {
         Console.WriteLine("Данное число не является пятизначным! Введите другое число: ");
         num = Convert.ToInt32(Console.ReadLine());
