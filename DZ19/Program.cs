@@ -9,7 +9,6 @@
 Console.Write("Введите пятизначное число:");
 int number = Convert.ToInt32(Console.ReadLine());
 
-//bool palindrom = palindrom(number);
 // string finAnswer = palindrom == true ? $"Число {number} -> является палиндромом!" : $"Число {number} -> не является палиндромом!";
 // Console.WriteLine(finAnswer); 
 if (palindrom(interval(number)))
@@ -28,8 +27,6 @@ bool palindrom(int num)
     int fifthNum = num % 10;
     return firstNum == fifthNum && secondNum == fourthNUM ? true : false;
 }
-
-//int interval=interval(number);
 
 int interval(int num)
 {
